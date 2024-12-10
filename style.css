@@ -1,0 +1,68 @@
+
+body{
+   background-color: #6c879a;
+}
+p {
+    text-indent: 30px; /* First-line indentation of 30px */
+  }
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: adds shadow to the text for better readability */
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+img {
+    display: block; /* Makes the image a block-level element */
+    margin-left: auto; /* Centers the image horizontally */
+    margin-right: auto; /* Centers the image horizontally */
+    height: 300px; /* Set height */
+    width: auto; /* Maintain aspect ratio */
+} 
+.parallax {
+            position: relative;
+            background-image: url('line.png'); /* Your parallax image */
+            height: 500px; /* Set the height of the section with the parallax */
+            background-attachment: fixed; /* Makes the background image stay fixed while scrolling */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; /* Ensure the image covers the whole container */
+            display: flex;
+            justify-content: center; /* Horizontally centers the title */
+            align-items: flex-end;     /* Vertically centers the title */
+            text-align: center;
+            color: white; /* Text color for contrast */
+            filter: grayscale(50%)
+}
+/* Container for the images */
+.image-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Adjust spacing between images (can also use space-evenly or center) */
+    gap: 20px; /* Optional: Add some space between the images */
+    margin: 20px 0; /* Optional: Add margin around the image container */
+    filter: grayscale(100%)
+}
+a{
+    color: black;
+}
+a:hover{
+    color: purple;
+}
+.link-container {
+    display: flex;        /* Align items in a row */
+    justify-content: center; 
+    gap: 500px;            /* Space between links */
+  }
+  
+  .link-container a {
+    text-decoration: underline;  /* Optional: Remove underline */
+    color: black;            /* Optional: Text color */
+  }
+    .link-container a:hover{
+        color:purple;
+    }
+  
+
